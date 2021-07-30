@@ -1,0 +1,14 @@
+com/uber/BuildConfig.java
+ com.uber.BuildConfig
+com/uber/MainApplication.java
+ com.uber.MainApplication
+ com.uber.MainApplication$1
+com/uber/ReactNativeFlipper.java
+ com.uber.ReactNativeFlipper
+ com.uber.ReactNativeFlipper$1
+ com.uber.ReactNativeFlipper$2
+ com.uber.ReactNativeFlipper$2$1
+com/uber/MainActivity.java
+ com.uber.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
