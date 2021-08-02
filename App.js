@@ -10,8 +10,11 @@ import { HomeScreen } from './src/screens/HomeScreen';
 export function App(){
   return (
     <>
+  
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <HomeScreen />
+     
      </>
+     
   );
 };

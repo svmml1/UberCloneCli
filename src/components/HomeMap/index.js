@@ -6,7 +6,7 @@ export function HomeMap() {
     return (
        <View style={{
            height: 300, 
-           backgroundColor:"#aaa",
+           backgroundColor:"black",
            justifyContent: 'center',
            alignItems: 'center'
            }}>
