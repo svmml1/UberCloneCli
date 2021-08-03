@@ -10,18 +10,38 @@ import {useNavigation} from '@react-navigation/native'
  
 
 export function HomeSearch() {
+
+   
+
     return (
         <View>
-            {/*  Input Box */}
-            <View style={styles.inputBox}>
-                <Text style={styles.inputText}> Para onde vai ?</Text>
-                <View style={styles.timeContainer}>
-                 <AntDesign name={'clockcircle'} size={16} color={'#535353'} />
-                 <Text>Now</Text>
-                 <MaterialIcons name={'keyboard-arrow-down'} size={16} />
-                </View>
-            </View> 
+        {/*  Input Box */}
+        <Pressable style={styles.inputBox}>
+          <Text style={styles.inputText}>Where To?</Text>
+  
+          <View style={styles.timeContainer}>
+            <AntDesign name={'clockcircle'} size={16} color={'#535353'} />
+            <Text>Now</Text>
+            <MaterialIcons name={'keyboard-arrow-down'} size={16} />
+          </View>
+        </Pressable>
+  
+        {/* Previous destination */}
+        <View style={styles.row}>
+          <View style={styles.iconContainer}>
+            <AntDesign name={'clockcircle'} size={20} color={'#ffffff'} />
+          </View>
+          <Text style={styles.destinationText}>Spin Nightclub</Text>
         </View>
+  
+        {/* Home destination */}
+        <View style={styles.row}>
+          <View style={[styles.iconContainer, {backgroundColor: '#218cff'}]}>
+            <Entypo name={'home'} size={20} color={'#ffffff'} />
+          </View>
+          <Text style={styles.destinationText}>Spin Nightclub</Text>
+        </View>
+      </View>
     )
 }
 
