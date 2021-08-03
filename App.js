@@ -1,18 +1,17 @@
-
 import React from 'react';
 
 import {
   StatusBar,
-  View,
   Text  
 } from 'react-native';
 
+import HomeScreen from './src/screens/HomeScreen'
 
-
-export function App(){
+export default function App(){
   return (
-    <View>
-      <Text>Rayner chupa rola</Text>
-    </View>
+    <>
+      <StatusBar  barStyle="dark-content"/>
+     <HomeScreen />
+    </>
   );
 };
