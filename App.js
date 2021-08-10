@@ -8,13 +8,13 @@ import {
 
 import HomeScreen from './src/screens/HomeScreen'
 import { DestinationSearch } from './src/screens/ DestinationSearch';
-import { SearchResults } from './src/screens/SearchResults';
+import SearchResults  from './src/screens/SearchResults';
 
 export default function App(){
   return (
     <>
       <StatusBar  barStyle="dark-content"/>
-     <SearchResults />
+     <HomeScreen />
     </>
   );
 };

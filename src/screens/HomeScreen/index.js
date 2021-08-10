@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Dimensions } from "react-native";
 
-import {HomeMap} from '../../components/HomeMap';
+import HomeMap from '../../components/HomeMap';
 import {CovidMessage} from '../../components/CovidMessage';
 import {HomeSearch} from '../../components/HomeSearch';
 

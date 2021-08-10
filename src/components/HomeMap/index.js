@@ -21,8 +21,8 @@ const HomeMap = (props) => {
       style={{width: '100%', height: '100%'}}
       provider={PROVIDER_GOOGLE}
       initialRegion={{
-        latitude: 28.450627,
-        longitude: -16.263045,
+        latitude: -9.6618829,
+        longitude: -35.7066286,
         latitudeDelta: 0.0222,
         longitudeDelta: 0.0121,
       }}>
